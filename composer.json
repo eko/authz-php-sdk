@@ -1,0 +1,23 @@
+{
+    "name": "eko/authz-sdk",
+    "description": "Authz PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eko\\AuthzSdk\\": "src/",
+            "Authz\\": "lib/Authz/",
+            "GPBMetadata\\": "lib/GPBMetadata/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vincent Composieux",
+            "email": "authz@composieux.fr"
+        }
+    ],
+    "require": {
+        "grpc/grpc": "^1.42",
+        "google/protobuf": "^3.21"
+    }
+}
